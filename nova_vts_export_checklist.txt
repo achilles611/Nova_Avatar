@@ -1,0 +1,31 @@
+Nova VTube Studio export checklist
+
+Target folder:
+E:\SteamLibrary\steamapps\common\VTube Studio\VTube Studio_Data\StreamingAssets\Live2DModels\nova_vts
+
+Source art:
+E:\cubism\projects\nova\source\nova.png
+
+Required files for VTube Studio:
+- nova.model3.json
+- nova.moc3
+- nova.cdi3.json
+- nova.<texture-size>\texture_00.png
+- icon.jpg
+
+Optional files:
+- nova.physics3.json
+- animations\*.motion3.json
+- expressions\*.exp3.json
+- nova.userdata3.json
+
+Cubism export steps:
+1. Open E:\cubism\CubismEditor5.exe.
+2. Create or open the Nova Cubism project.
+3. Rig the model and create the texture atlas.
+4. Use File > Export Embedded File > Export as MOC3 file.
+5. Export into the target folder above.
+6. Use model name "nova" so the files become nova.model3.json and nova.moc3.
+7. Include display information, and include physics/userdata only if the project uses them.
+
+After export, restart VTube Studio or reload the model list. VTube Studio should auto-create nova.vtube.json when it sees nova.model3.json.

@@ -1,0 +1,254 @@
+[
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\right_leg_base.png",
+    "atlas_x": 16,
+    "atlas_y": 16,
+    "width": 195,
+    "height": 827
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\left_leg_base.png",
+    "atlas_x": 227,
+    "atlas_y": 16,
+    "width": 195,
+    "height": 826
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\torso_base.png",
+    "atlas_x": 438,
+    "atlas_y": 16,
+    "width": 515,
+    "height": 615
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\hair\\hair_r01_c01.png",
+    "atlas_x": 969,
+    "atlas_y": 16,
+    "width": 576,
+    "height": 594
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\left_arm_base.png",
+    "atlas_x": 1561,
+    "atlas_y": 16,
+    "width": 161,
+    "height": 570
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\right_arm_base.png",
+    "atlas_x": 1738,
+    "atlas_y": 16,
+    "width": 169,
+    "height": 570
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\hair\\hair_r01_c02.png",
+    "atlas_x": 1923,
+    "atlas_y": 16,
+    "width": 430,
+    "height": 345
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\head_base.png",
+    "atlas_x": 2369,
+    "atlas_y": 16,
+    "width": 391,
+    "height": 405
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\hair\\hair_r01_c03.png",
+    "atlas_x": 2776,
+    "atlas_y": 16,
+    "width": 361,
+    "height": 214
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\hair\\hair_r02_c01.png",
+    "atlas_x": 3153,
+    "atlas_y": 16,
+    "width": 204,
+    "height": 329
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\hair\\hair_r02_c02.png",
+    "atlas_x": 3373,
+    "atlas_y": 16,
+    "width": 204,
+    "height": 327
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\hair\\hair_r03_c01.png",
+    "atlas_x": 3593,
+    "atlas_y": 16,
+    "width": 244,
+    "height": 137
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\right_shoe_base.png",
+    "atlas_x": 3853,
+    "atlas_y": 16,
+    "width": 154,
+    "height": 236
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\left_shoe_base.png",
+    "atlas_x": 16,
+    "atlas_y": 859,
+    "width": 155,
+    "height": 235
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r02_c02.png",
+    "atlas_x": 187,
+    "atlas_y": 859,
+    "width": 195,
+    "height": 96
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r02_c03.png",
+    "atlas_x": 398,
+    "atlas_y": 859,
+    "width": 195,
+    "height": 96
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r02_c04.png",
+    "atlas_x": 609,
+    "atlas_y": 859,
+    "width": 195,
+    "height": 96
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r02_c01.png",
+    "atlas_x": 820,
+    "atlas_y": 859,
+    "width": 194,
+    "height": 96
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r01_c03.png",
+    "atlas_x": 1030,
+    "atlas_y": 859,
+    "width": 180,
+    "height": 50
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r01_c04.png",
+    "atlas_x": 1226,
+    "atlas_y": 859,
+    "width": 180,
+    "height": 50
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r03_c01.png",
+    "atlas_x": 1422,
+    "atlas_y": 859,
+    "width": 176,
+    "height": 41
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r01_c01.png",
+    "atlas_x": 1614,
+    "atlas_y": 859,
+    "width": 175,
+    "height": 34
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r03_c02.png",
+    "atlas_x": 1805,
+    "atlas_y": 859,
+    "width": 175,
+    "height": 41
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r04_c02.png",
+    "atlas_x": 1996,
+    "atlas_y": 859,
+    "width": 175,
+    "height": 58
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r01_c02.png",
+    "atlas_x": 2187,
+    "atlas_y": 859,
+    "width": 174,
+    "height": 34
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r04_c01.png",
+    "atlas_x": 2377,
+    "atlas_y": 859,
+    "width": 174,
+    "height": 58
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r06_c01.png",
+    "atlas_x": 2567,
+    "atlas_y": 859,
+    "width": 168,
+    "height": 19
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\left_hand_base.png",
+    "atlas_x": 2751,
+    "atlas_y": 859,
+    "width": 98,
+    "height": 157
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\body\\right_hand_base.png",
+    "atlas_x": 2865,
+    "atlas_y": 859,
+    "width": 98,
+    "height": 157
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r07_c02.png",
+    "atlas_x": 2979,
+    "atlas_y": 859,
+    "width": 119,
+    "height": 52
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r07_c04.png",
+    "atlas_x": 3114,
+    "atlas_y": 859,
+    "width": 115,
+    "height": 50
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r05_c01.png",
+    "atlas_x": 3245,
+    "atlas_y": 859,
+    "width": 96,
+    "height": 108
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r05_c02.png",
+    "atlas_x": 3357,
+    "atlas_y": 859,
+    "width": 95,
+    "height": 107
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r07_c01.png",
+    "atlas_x": 3468,
+    "atlas_y": 859,
+    "width": 94,
+    "height": 77
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r07_c05.png",
+    "atlas_x": 3578,
+    "atlas_y": 859,
+    "width": 94,
+    "height": 62
+  },
+  {
+    "file": "C:\\Users\\atlas\\Documents\\vtuber\\nova_live2d\\parts\\face\\face_r07_c03.png",
+    "atlas_x": 3688,
+    "atlas_y": 859,
+    "width": 50,
+    "height": 50
+  }
+]
