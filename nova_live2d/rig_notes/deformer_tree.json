@@ -1,0 +1,105 @@
+{
+  "name": "Root",
+  "type": "root",
+  "children": [
+    {
+      "name": "Body_ALL",
+      "type": "warp",
+      "children": [
+        {
+          "name": "Torso_Warp",
+          "type": "warp",
+          "children": []
+        },
+        {
+          "name": "Head_ALL",
+          "type": "warp",
+          "children": [
+            {
+              "name": "Head_XYZ_Warp",
+              "type": "warp",
+              "children": []
+            },
+            {
+              "name": "Face_ALL",
+              "type": "group",
+              "children": [
+                {
+                  "name": "Eye_L_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "Eye_R_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "Brow_L_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "Brow_R_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "Mouth_ALL",
+                  "type": "group",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Hair_ALL",
+              "type": "group",
+              "children": [
+                {
+                  "name": "FrontHair_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "SideHair_L_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "SideHair_R_ALL",
+                  "type": "group",
+                  "children": []
+                },
+                {
+                  "name": "BackHair_ALL",
+                  "type": "group",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arm_L_ALL",
+          "type": "group",
+          "children": []
+        },
+        {
+          "name": "Arm_R_ALL",
+          "type": "group",
+          "children": []
+        },
+        {
+          "name": "Leg_L_ALL",
+          "type": "group",
+          "children": []
+        },
+        {
+          "name": "Leg_R_ALL",
+          "type": "group",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

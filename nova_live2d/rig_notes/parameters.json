@@ -1,0 +1,112 @@
+{
+  "parameters": [
+    {
+      "id": "ParamAngleX",
+      "display_name": "Head Angle X",
+      "min": -30,
+      "default": 0,
+      "max": 30,
+      "priority": "high",
+      "notes": "First pass head turn parameter."
+    },
+    {
+      "id": "ParamAngleY",
+      "display_name": "Head Angle Y",
+      "min": -30,
+      "default": 0,
+      "max": 30,
+      "priority": "high",
+      "notes": "Head up/down after Angle X is stable."
+    },
+    {
+      "id": "ParamAngleZ",
+      "display_name": "Head Angle Z",
+      "min": -30,
+      "default": 0,
+      "max": 30,
+      "priority": "high",
+      "notes": "Head roll / lean."
+    },
+    {
+      "id": "ParamBodyAngleX",
+      "display_name": "Body Angle X",
+      "min": -10,
+      "default": 0,
+      "max": 10,
+      "priority": "medium",
+      "notes": "Body follow-through. Delay until torso underlaps are cleaned."
+    },
+    {
+      "id": "ParamBodyAngleY",
+      "display_name": "Body Angle Y",
+      "min": -10,
+      "default": 0,
+      "max": 10,
+      "priority": "medium",
+      "notes": "Body pitch follow-through."
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "display_name": "Left Eye Open",
+      "min": 0,
+      "default": 1,
+      "max": 1,
+      "priority": "high",
+      "notes": "Blink and eye-open control."
+    },
+    {
+      "id": "ParamEyeROpen",
+      "display_name": "Right Eye Open",
+      "min": 0,
+      "default": 1,
+      "max": 1,
+      "priority": "high",
+      "notes": "Blink and eye-open control."
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "display_name": "Mouth Open Y",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "priority": "high",
+      "notes": "Primary mouth opening control."
+    },
+    {
+      "id": "ParamMouthForm",
+      "display_name": "Mouth Form",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "priority": "high",
+      "notes": "Blend horizontal vs rounded phoneme feel."
+    },
+    {
+      "id": "ParamBrowLY",
+      "display_name": "Left Brow Y",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "priority": "high",
+      "notes": "Left brow height / expression."
+    },
+    {
+      "id": "ParamBrowRY",
+      "display_name": "Right Brow Y",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "priority": "high",
+      "notes": "Right brow height / expression."
+    },
+    {
+      "id": "ParamBreath",
+      "display_name": "Breath",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "priority": "medium",
+      "notes": "Optional subtle idle motion after the base pose is stable."
+    }
+  ]
+}

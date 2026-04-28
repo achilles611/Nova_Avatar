@@ -1,0 +1,425 @@
+{
+  "project": "Nova Live2D starter pack",
+  "parts": [
+    {
+      "id": "guide_reference",
+      "display_name": "Nova reference illustration",
+      "category": "guide",
+      "source_file": "reference/nova_reference.png",
+      "recommended_parent_deformer": "Root",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Reference only. Use for silhouette, costume, and likeness checks while rigging."
+    },
+    {
+      "id": "guide_base_fullbody",
+      "display_name": "Transparent fullbody guide",
+      "category": "guide",
+      "source_file": "textures/nova_base_fullbody.png",
+      "recommended_parent_deformer": "Root",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Guide image only. Do not import this as the final layered PSD."
+    },
+    {
+      "id": "guide_face_sheet",
+      "display_name": "Transparent face sheet",
+      "category": "guide",
+      "source_file": "textures/nova_face_sheet.png",
+      "recommended_parent_deformer": "Root",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Reference sheet for face-layer PSD assembly."
+    },
+    {
+      "id": "guide_hair_sheet",
+      "display_name": "Transparent hair sheet",
+      "category": "guide",
+      "source_file": "textures/nova_hair_sheet.png",
+      "recommended_parent_deformer": "Root",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Reference sheet for hair and crown-layer PSD assembly."
+    },
+    {
+      "id": "guide_texture_atlas",
+      "display_name": "Starter texture atlas",
+      "category": "guide",
+      "source_file": "textures/nova_texture_00.png",
+      "recommended_parent_deformer": "Root",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Packing preview only. Cubism should generate the production atlas later."
+    },
+    {
+      "id": "guide_icon",
+      "display_name": "Model icon",
+      "category": "guide",
+      "source_file": "icon.jpg",
+      "recommended_parent_deformer": "Root",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "VTube Studio selector icon candidate."
+    },
+    {
+      "id": "head_base",
+      "display_name": "Head base",
+      "category": "body",
+      "source_file": "parts/body/head_base.png",
+      "recommended_parent_deformer": "Head_XYZ_Warp",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Primary anchor for face and hair groups."
+    },
+    {
+      "id": "torso_base",
+      "display_name": "Torso base",
+      "category": "body",
+      "source_file": "parts/body/torso_base.png",
+      "recommended_parent_deformer": "Torso_Warp",
+      "needs_underlap_cleanup": true,
+      "rig_priority": "medium",
+      "notes": "First-pass crop. Redraw jacket and shirt underlaps before strong breathing or torso turns."
+    },
+    {
+      "id": "left_arm_base",
+      "display_name": "Left arm base",
+      "category": "body",
+      "source_file": "parts/body/left_arm_base.png",
+      "recommended_parent_deformer": "Arm_L_ALL",
+      "needs_underlap_cleanup": true,
+      "rig_priority": "medium",
+      "notes": "Flattened first-pass arm crop. Split and repaint overlaps before elbow motion."
+    },
+    {
+      "id": "right_arm_base",
+      "display_name": "Right arm base",
+      "category": "body",
+      "source_file": "parts/body/right_arm_base.png",
+      "recommended_parent_deformer": "Arm_R_ALL",
+      "needs_underlap_cleanup": true,
+      "rig_priority": "medium",
+      "notes": "Flattened first-pass arm crop. Split and repaint overlaps before elbow motion."
+    },
+    {
+      "id": "left_hand_base",
+      "display_name": "Left hand base",
+      "category": "body",
+      "source_file": "parts/body/left_hand_base.png",
+      "recommended_parent_deformer": "Arm_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "medium",
+      "notes": "Good for initial wrist placement. May need seam cleanup after arm refinement."
+    },
+    {
+      "id": "right_hand_base",
+      "display_name": "Right hand base",
+      "category": "body",
+      "source_file": "parts/body/right_hand_base.png",
+      "recommended_parent_deformer": "Arm_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "medium",
+      "notes": "Good for initial wrist placement. May need seam cleanup after arm refinement."
+    },
+    {
+      "id": "left_leg_base",
+      "display_name": "Left leg base",
+      "category": "body",
+      "source_file": "parts/body/left_leg_base.png",
+      "recommended_parent_deformer": "Leg_L_ALL",
+      "needs_underlap_cleanup": true,
+      "rig_priority": "medium",
+      "notes": "First-pass crop. Repaint overlap under jacket hem and around upper thigh before strong turns."
+    },
+    {
+      "id": "right_leg_base",
+      "display_name": "Right leg base",
+      "category": "body",
+      "source_file": "parts/body/right_leg_base.png",
+      "recommended_parent_deformer": "Leg_R_ALL",
+      "needs_underlap_cleanup": true,
+      "rig_priority": "medium",
+      "notes": "First-pass crop. Repaint overlap under jacket hem and around upper thigh before strong turns."
+    },
+    {
+      "id": "left_shoe_base",
+      "display_name": "Left shoe base",
+      "category": "body",
+      "source_file": "parts/body/left_shoe_base.png",
+      "recommended_parent_deformer": "Leg_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Useful for stance tests once leg hierarchy exists."
+    },
+    {
+      "id": "right_shoe_base",
+      "display_name": "Right shoe base",
+      "category": "body",
+      "source_file": "parts/body/right_shoe_base.png",
+      "recommended_parent_deformer": "Leg_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "low",
+      "notes": "Useful for stance tests once leg hierarchy exists."
+    },
+    {
+      "id": "brow_l_neutral",
+      "display_name": "Left brow neutral",
+      "category": "face",
+      "source_file": "parts/face/face_r01_c01.png",
+      "recommended_parent_deformer": "Brow_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Primary left brow for neutral expression."
+    },
+    {
+      "id": "brow_r_neutral",
+      "display_name": "Right brow neutral",
+      "category": "face",
+      "source_file": "parts/face/face_r01_c02.png",
+      "recommended_parent_deformer": "Brow_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Primary right brow for neutral expression."
+    },
+    {
+      "id": "brow_l_raised",
+      "display_name": "Left brow raised",
+      "category": "face",
+      "source_file": "parts/face/face_r01_c03.png",
+      "recommended_parent_deformer": "Brow_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Use for raised or surprised left-brow states."
+    },
+    {
+      "id": "brow_r_raised",
+      "display_name": "Right brow raised",
+      "category": "face",
+      "source_file": "parts/face/face_r01_c04.png",
+      "recommended_parent_deformer": "Brow_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Use for raised or surprised right-brow states."
+    },
+    {
+      "id": "eye_l_open",
+      "display_name": "Left eye open",
+      "category": "face",
+      "source_file": "parts/face/face_r02_c01.png",
+      "recommended_parent_deformer": "Eye_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Base left eye for open state."
+    },
+    {
+      "id": "eye_r_open",
+      "display_name": "Right eye open",
+      "category": "face",
+      "source_file": "parts/face/face_r02_c02.png",
+      "recommended_parent_deformer": "Eye_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Base right eye for open state."
+    },
+    {
+      "id": "eye_l_smile",
+      "display_name": "Left eye smile",
+      "category": "face",
+      "source_file": "parts/face/face_r02_c03.png",
+      "recommended_parent_deformer": "Eye_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Use for smiling or soft-expression left eye."
+    },
+    {
+      "id": "eye_r_smile",
+      "display_name": "Right eye smile",
+      "category": "face",
+      "source_file": "parts/face/face_r02_c04.png",
+      "recommended_parent_deformer": "Eye_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Use for smiling or soft-expression right eye."
+    },
+    {
+      "id": "eye_l_closed",
+      "display_name": "Left eye closed",
+      "category": "face",
+      "source_file": "parts/face/face_r03_c01.png",
+      "recommended_parent_deformer": "Eye_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Blink or closed-eye layer for the left eye."
+    },
+    {
+      "id": "eye_r_closed",
+      "display_name": "Right eye closed",
+      "category": "face",
+      "source_file": "parts/face/face_r03_c02.png",
+      "recommended_parent_deformer": "Eye_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Blink or closed-eye layer for the right eye."
+    },
+    {
+      "id": "brow_l_tension",
+      "display_name": "Left brow tension",
+      "category": "face",
+      "source_file": "parts/face/face_r04_c01.png",
+      "recommended_parent_deformer": "Brow_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Secondary left-brow expression for tension, concern, or emphasis."
+    },
+    {
+      "id": "brow_r_tension",
+      "display_name": "Right brow tension",
+      "category": "face",
+      "source_file": "parts/face/face_r04_c02.png",
+      "recommended_parent_deformer": "Brow_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Secondary right-brow expression for tension, concern, or emphasis."
+    },
+    {
+      "id": "iris_l",
+      "display_name": "Left iris",
+      "category": "face",
+      "source_file": "parts/face/face_r05_c01.png",
+      "recommended_parent_deformer": "Eye_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Use for eye-ball motion under the left eye group."
+    },
+    {
+      "id": "iris_r",
+      "display_name": "Right iris",
+      "category": "face",
+      "source_file": "parts/face/face_r05_c02.png",
+      "recommended_parent_deformer": "Eye_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Use for eye-ball motion under the right eye group."
+    },
+    {
+      "id": "smile_line",
+      "display_name": "Neutral smile line",
+      "category": "face",
+      "source_file": "parts/face/face_r06_c01.png",
+      "recommended_parent_deformer": "Mouth_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Subtle closed-mouth smile for neutral expression."
+    },
+    {
+      "id": "mouth_a",
+      "display_name": "Mouth A",
+      "category": "face",
+      "source_file": "parts/face/face_r07_c01.png",
+      "recommended_parent_deformer": "Mouth_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Largest open mouth. Good A-shape starting point."
+    },
+    {
+      "id": "mouth_i",
+      "display_name": "Mouth I",
+      "category": "face",
+      "source_file": "parts/face/face_r07_c02.png",
+      "recommended_parent_deformer": "Mouth_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Wider flatter mouth shape for I / E blending."
+    },
+    {
+      "id": "mouth_u",
+      "display_name": "Mouth U",
+      "category": "face",
+      "source_file": "parts/face/face_r07_c03.png",
+      "recommended_parent_deformer": "Mouth_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Small rounded mouth shape for U."
+    },
+    {
+      "id": "mouth_e",
+      "display_name": "Mouth E",
+      "category": "face",
+      "source_file": "parts/face/face_r07_c04.png",
+      "recommended_parent_deformer": "Mouth_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Wide open mouth shape for E."
+    },
+    {
+      "id": "mouth_o",
+      "display_name": "Mouth O",
+      "category": "face",
+      "source_file": "parts/face/face_r07_c05.png",
+      "recommended_parent_deformer": "Mouth_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Rounded medium mouth shape for O."
+    },
+    {
+      "id": "back_hair_mass",
+      "display_name": "Back hair mass",
+      "category": "hair",
+      "source_file": "parts/hair/hair_r01_c01.png",
+      "recommended_parent_deformer": "BackHair_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Main rear hair volume. Keep behind the head base."
+    },
+    {
+      "id": "front_bangs",
+      "display_name": "Front bangs",
+      "category": "hair",
+      "source_file": "parts/hair/hair_r01_c02.png",
+      "recommended_parent_deformer": "FrontHair_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Primary front hair shape for head-turn overlap."
+    },
+    {
+      "id": "side_hair_l",
+      "display_name": "Left side hair",
+      "category": "hair",
+      "source_file": "parts/hair/hair_r02_c01.png",
+      "recommended_parent_deformer": "SideHair_L_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Useful for both Angle X overlap and light physics."
+    },
+    {
+      "id": "side_hair_r",
+      "display_name": "Right side hair",
+      "category": "hair",
+      "source_file": "parts/hair/hair_r02_c02.png",
+      "recommended_parent_deformer": "SideHair_R_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "high",
+      "notes": "Useful for both Angle X overlap and light physics."
+    },
+    {
+      "id": "neck_hair",
+      "display_name": "Neck / lower back hair",
+      "category": "hair",
+      "source_file": "parts/hair/hair_r03_c01.png",
+      "recommended_parent_deformer": "BackHair_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "medium",
+      "notes": "Secondary rear hair piece near the neck."
+    },
+    {
+      "id": "crown_gold",
+      "display_name": "Gold crown",
+      "category": "accessory",
+      "source_file": "parts/hair/hair_r01_c03.png",
+      "recommended_parent_deformer": "Hair_ALL",
+      "needs_underlap_cleanup": false,
+      "rig_priority": "medium",
+      "notes": "Accessory piece. Parent to the head / hair stack and add only subtle motion."
+    }
+  ]
+}

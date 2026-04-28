@@ -1,3 +1,20 @@
+# OS junk
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Common Cubism scratch, autosave, and temp files
+*.autosave
+*.bak
+*.lock
+*.orig
+*.tmp
+*.cmo3.autosave
+*.can3.autosave
+*.cmo3.bak
+*.can3.bak
